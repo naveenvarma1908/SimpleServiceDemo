@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nis.neevan.simpleservicedemo.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sample Code For Service"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-condensed"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bn_startService"
+        android:layout_margin="15sp"
+        android:text="Start Service"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:onClick="startServiceClick"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:onClick="stopServiceClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bn_stopService"
+        android:layout_margin="15sp"
+        android:text="Stop Service"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"/>
+</LinearLayout>
